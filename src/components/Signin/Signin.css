@@ -168,6 +168,8 @@ html {
       bottom: 100%;
     }
   }
+
+  
   .navigate-to-signin{
     display: flex;
     justify-content:flex-start;

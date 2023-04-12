@@ -1,10 +1,10 @@
 import './App.css';
-import Signin from './components/Signin/Signin';
+import Forgetpass from './components/Forgetpassword/Forgetpass';
 
 function App() {
   return (
  <>
-<Signin/>
+<Forgetpass/>
  </>
   );
 }
