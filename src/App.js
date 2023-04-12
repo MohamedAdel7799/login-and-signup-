@@ -1,10 +1,10 @@
 import './App.css';
-import Forgetpass from './components/Forgetpassword/Forgetpass';
+import Register from './components/Register/Register';
 
 function App() {
   return (
  <>
-<Forgetpass/>
+<Register/>
  </>
   );
 }
