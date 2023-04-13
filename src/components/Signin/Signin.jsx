@@ -1,47 +1,42 @@
 import React from "react";
 import "./Signin.css";
 
+
   
 function Signin(){
 
-    return(
-        <>  
-         <div class="login-box">
-            <h2>Welcome Back!</h2>
-            <form>
-               
-                <div class="user-box">
-                    <input type="text" name="email" required=""></input>
-                    <label>Email</label>
-                </div>
+  
+    return (
 
-
-                <div class="user-box">
-                    <input type="password" name="password" required=""></input>
-                    <label>Password</label>
-                <div className="navigate-to-signin">
-                    <h2 style={{fontSize:'15px'}}>
-                        Don't Have Account? 
-                    </h2>
-                    
-                </div>
-                </div>
-
-                <div className="buttons">
-                    <a href="{}">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Login
-                    </a>
-                 
-                </div>
-              
-            </form>
-        </div>     
-       
-        </>
+      <>
+      <div className="login-box">
+      <h2>Welcom Back!</h2>
+      <form>
+        <div className="user-box">
+          <input type="text" name="" />
+          <label>Email</label>
+        </div>
+        <div className="user-box">
+          <input type="password" name=""/>
+          <label>Password</label>
+          
+        </div>
+     
+        <div className="login">
+        <button>  Login </button>
+        </div>
+        <div className="signup">
+          <p>Don't Have Account? <a href="{}"> Signup </a></p>
+        </div>
+        <div className="forgetpass">
+          <p><a href="{}"> Forget Password?  </a></p>
+        </div>
+  
+      </form>
+      </div>
+     
+   
+      </>
     )
 }
 export default Signin;

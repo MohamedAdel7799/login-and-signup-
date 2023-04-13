@@ -23,7 +23,6 @@ function Register(){
         e.preventDefault()
         let request = await axios.post('http://103.48.193.225:9000/customers/register',user);
         localStorage.setItem("usertoken",request.data.token)
-
     }
 
     return(
