@@ -1,11 +1,22 @@
 import './App.css';
-import Signin from './components/Signin/Signin';
+import Profile from './components/Profile/Profile';
+
 
 function App() {
   return (
  <>
- <Signin/>
+ <div>
+  <Profile/>
+
+
+
+
+
+
+
+ </div>
  
+
  </>
   );
 }

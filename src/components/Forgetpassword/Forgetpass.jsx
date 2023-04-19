@@ -6,28 +6,20 @@ function Forgetpass(){
 
     return(
         <>
-  <div class="login-box">
-            <h2>Forget Password ! </h2>
-            <form>
-               
-                <div class="user-box">
-                    <input type="text" name="email" required=""></input>
-                    <label>Email</label>
-                </div>
-
-                <div className="buttons">
-                    <a href="{}">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                   Send virify
-                    </a>
-                 
-                </div>
-              
-            </form>
-        </div>     
+        <div className="login-box">
+      <h2>Reset password</h2>
+      <form>
+        <div className="user-box">
+          <input type="text" name="" />
+          <label>Email</label>
+        </div>
+     
+        <div className="login">
+        <button>  send virify </button>
+        </div>
+      </form>
+      </div>
+   
        
         </>
     )
